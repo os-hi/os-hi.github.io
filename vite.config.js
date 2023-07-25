@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 
-const BASE = '/fwdp-starter-vite';
+const BASE = '/';
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? BASE : '/',
